@@ -8,6 +8,9 @@ alias unxx="unset http_proxy"
 alias xx="export https_proxy='http://localhost:8087'"
 alias unxx="unset https_proxy"
 
+## command line shortcut for sublime
+alias subl="open -a Sublime\ Text"
+
 ## show hidden files in finder, restart Finder to take effect
 alias showhide="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias unshowhide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
