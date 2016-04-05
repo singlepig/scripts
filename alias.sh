@@ -20,6 +20,9 @@ alias editzsh="subl ~/.zshrc"
 ## edit hosts
 alias edithost="subl /private/etc/hosts"
 
+## clear
+alias c="clear"
+
 ## show hidden files in finder, restart Finder to take effect
 alias showhide="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias unshowhide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
