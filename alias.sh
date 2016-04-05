@@ -11,6 +11,9 @@ alias unxx="unset https_proxy"
 ## command line shortcut for sublime
 alias subl="open -a Sublime\ Text"
 
+## reload shell config
+alias reload="source ~/.zshrc"
+
 ## edit zshrc
 alias editzsh="subl ~/.zshrc"
 
