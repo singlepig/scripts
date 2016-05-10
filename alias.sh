@@ -9,7 +9,7 @@ alias xx="export https_proxy='http://localhost:8087'"
 alias unxx="unset https_proxy"
 
 ## command line shortcut for sublime
-alias subl="open -a Sublime\ Text"
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 ## reload shell config
 alias reload="source ~/.zshrc"
