@@ -11,6 +11,10 @@ alias unxx="unset https_proxy"
 ## command line shortcut for sublime
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
+## alias for commands
+alias p3="python3"
+alias p2="python2"
+
 ## reload shell config
 alias reload="source ~/.zshrc"
 
