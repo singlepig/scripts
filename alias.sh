@@ -3,10 +3,10 @@
 alias caf="caffeinate -t 3600"
 
 ## command line proxy use xx-net
-alias xx="export http_proxy='http://localhost:8087'"
-alias unxx="unset http_proxy"
-alias xx="export https_proxy='http://localhost:8087'"
-alias unxx="unset https_proxy"
+alias httpproxy="export http_proxy='http://localhost:1080'"
+alias unhttpproxy="unset http_proxy"
+alias httpsproxy="export https_proxy='http://localhost:1080'"
+alias unhttpsproxy="unset https_proxy"
 
 ## command line shortcut for sublime
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
