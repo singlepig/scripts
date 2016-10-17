@@ -19,7 +19,7 @@ alias p2="python2"
 alias reload="source ~/.zshrc"
 
 ## edit zshrc
-alias editzsh="subl ~/.zshrc"
+alias editalias="subl ~/tools/scripts"
 
 ## edit hosts
 alias edithost="subl /private/etc/hosts"
