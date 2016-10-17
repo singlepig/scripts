@@ -36,3 +36,13 @@ alias unshowhide="defaults write com.apple.finder AppleShowAllFiles -bool false 
 alias gcl="git config -l"
 alias gdc="git diff --cached"
 # end of git alias
+
+# alias for java
+export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
+# default use JDK 7
+export JAVA_HOME=$JAVA_8_HOME
+# alias to change jdk versions
+alias jdk7="export JAVA_HOME=$JAVA_7_HOME"
+alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
+# end of java alias
