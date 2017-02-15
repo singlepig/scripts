@@ -35,6 +35,9 @@ alias unshowhide="defaults write com.apple.finder AppleShowAllFiles -bool false 
 # alias for git
 alias gcl="git config -l"
 alias gdc="git diff --cached"
+alias gd="git diff"
+alias gst="git status"
+alias dsf="git diff --color | diff-so-fancy"
 # end of git alias
 
 # alias for java
