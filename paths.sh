@@ -7,8 +7,8 @@ export PATH="$PATH:$ANDROID_SDK_PATH/build-tools:$ANDROID_SDK_PATH/platform-tool
 
 ## for go
 export GOROOT=/usr/local/go
-export PATH=$PATH:$GOROOT/bin
 export GOPATH=$HOME/work/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 ## for tools dir
 export PATH="$PATH:`pwd`/tools"
