@@ -2,11 +2,9 @@
 ## avoid system slepp
 alias caf="caffeinate -t 3600"
 
-## command line proxy use xx-net
-alias httpproxy="export http_proxy='http://localhost:1080'"
-alias unhttpproxy="unset http_proxy"
-alias httpsproxy="export https_proxy='http://localhost:1080'"
-alias unhttpsproxy="unset https_proxy"
+## command line proxy
+alias use_proxy="export http_proxy=http://127.0.0.1:8123 && export https_proxy=http://127.0.0.1:8123"
+alias unuse_proxy="unset use_proxy"
 
 ## command line shortcut for sublime
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
