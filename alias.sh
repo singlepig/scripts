@@ -38,6 +38,9 @@ alias gdc="git diff --cached"
 alias gd="git diff"
 alias gst="git status"
 alias dsf="git diff --color | diff-so-fancy"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gco="git checkout"
 # end of git alias
 
 # alias for java
