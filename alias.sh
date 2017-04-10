@@ -51,4 +51,17 @@ export JAVA_HOME=$JAVA_8_HOME
 # alias to change jdk versions
 alias jdk7="export JAVA_HOME=$JAVA_7_HOME"
 alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
-# end of java alias
+# end of java alias# functions
+function scpto ()
+{
+    # TODO add support for argument target_ip
+    if [[ 0 -eq $# ]]; then
+        echo "usage: scpto file1 [file2 ...] -ip [user@target-ip:path]"
+        return 1
+    else
+        # TODO add support for multi files
+        TargetIP="singlepig@192.168.0.129:Downloads"
+        File=$1
+    fi
+    scp $File $TargetIP
+}
