@@ -12,6 +12,8 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ## alias for commands
 alias p3="python3"
 alias p2="python2"
+# used in condition like ls -1 | wc -l
+alias l1="ls -1"
 
 ## reload shell config
 alias reload="source ~/.zshrc"
